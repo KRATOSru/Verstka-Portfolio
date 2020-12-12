@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #22222b;
+}
+
+.main {
+    background-image: url("../img/matrix-3.jpg");
+}
+
+.header {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 15px;
+
+}
+
+.nav-link {
+    color: #faf9fe;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #faf9fe;
+}
+
