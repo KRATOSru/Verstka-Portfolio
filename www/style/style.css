@@ -1,11 +1,29 @@
 
+body,html {
+    height: 100vh;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #22222b;
 }
 
 .main {
-    background-image: url("../img/matrix-3.jpg");
+    background-image: url("../img/cup-of.jpg");
+    /*background-image: url("../img/portfolio/network-3.jpg");*/
+    /*background-image: url("../img/portfolio/computer-1.jpg");*/
+    /*background-image: url("../img/portfolio/hacker-2.jpg");*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*justify-content: space-between;*/
+}
+
+.wrapper {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .header {
@@ -40,4 +58,13 @@ body {
 .nav-link:hover {
     border-bottom: 1px solid #faf9fe;
 }
+
+.title-h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 500;
+    color: #faf9fe;
+}
+
+
 
