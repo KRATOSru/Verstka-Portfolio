@@ -10,9 +10,6 @@ body {
 
 .main {
     background-image: url("../img/cup-of.jpg");
-    /*background-image: url("../img/portfolio/network-3.jpg");*/
-    /*background-image: url("../img/portfolio/computer-1.jpg");*/
-    /*background-image: url("../img/portfolio/hacker-2.jpg");*/
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -20,7 +17,6 @@ body {
 }
 
 .wrapper {
-    max-width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -64,6 +60,36 @@ body {
     text-align: center;
     font-weight: 500;
     color: #faf9fe;
+    padding-top: 350px;
+}
+
+.box-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.box-about-item {
+    flex: 0 0 45%;
+    max-width: 45%;
+    position: relative;
+}
+
+.box-about_back{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: -195px;
+}
+
+.box-about_vertical {
+    position: absolute;
+    left: 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    bottom: 58px;
+    font-size: 16px;
 }
 
 
