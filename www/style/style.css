@@ -9,7 +9,7 @@ body {
 }
 
 .main {
-    background-image: url("../img/cup-of.jpg");
+    background-image: url("../img/backround-img.jpg");
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -63,16 +63,23 @@ body {
     padding-top: 350px;
 }
 
+.title-h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .box-about {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 220px;
 }
 
 .box-about-item {
-    flex: 0 0 45%;
-    max-width: 45%;
+    flex: 0 0 46%;
+    max-width: 46%;
     position: relative;
 }
 
@@ -80,7 +87,7 @@ body {
     position: absolute;
     z-index: -1;
     left: 0;
-    top: -195px;
+    top: -210px;
 }
 
 .box-about_vertical {
@@ -91,6 +98,27 @@ body {
     bottom: 58px;
     font-size: 16px;
 }
+
+.box-about_text {
+    color: #7f7f82;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.progress-bar {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.progress-bar-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 
 
 
