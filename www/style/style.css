@@ -26,6 +26,7 @@ body {
     max-width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -90,12 +91,18 @@ body {
     top: -210px;
 }
 
+.box-about_front {
+    position: relative;
+    left: 215px;
+}
+
 .box-about_vertical {
-    position: absolute;
+    /*position: absolute;*/
     left: 0;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    bottom: 58px;
+    /*bottom: 58px;*/
+    margin-bottom: 20px;
     font-size: 16px;
 }
 
@@ -117,6 +124,10 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.section-services {
+    background-color: #faf9fe;
 }
 
 
