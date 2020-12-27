@@ -8,6 +8,10 @@ body {
     color: #22222b;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .main {
     background-image: url("../img/backround-img.jpg");
     display: flex;
@@ -71,6 +75,16 @@ body {
     margin-bottom: 20px;
 }
 
+.title-h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.after-title {
+    font-size: 16px;
+    color: #22222b;
+}
+
 .box-about {
     display: flex;
     justify-content: space-between;
@@ -128,6 +142,24 @@ body {
 
 .section-services {
     background-color: #faf9fe;
+}
+
+.service {
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+    grid-gap: 45px;
+}
+
+.service_text {
+    color: #22222b;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.service_link {
+    color: #22222b;
+    font-size: 14px;
+    text-decoration: none;
 }
 
 
