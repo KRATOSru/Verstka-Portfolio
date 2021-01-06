@@ -92,6 +92,12 @@ body {
     font-size: 18px;
     opacity: 0.6;
     transition: 0.6s;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.after-title a:hover {
+    border-bottom: 3px solid #7B68EE;
 }
 
 .box-about {
