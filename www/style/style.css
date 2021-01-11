@@ -253,6 +253,35 @@ body {
     object-fit: cover;
 }
 
+.section-banner {
+    padding-top: 70px;
+    padding-bottom: 112px;
+    background-color: #22222b;
+    color: #faf9fe;
+    text-align: center;
+}
+
+.before-title {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.hire-me {
+    font-size: 48px;
+    margin-top: 15px;
+    margin-bottom: 42px;
+}
+
+.btn {
+    color: #22222b;
+    background-color: #faf9fe;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 12px 57px;
+}
+
+
+
 
 
 
