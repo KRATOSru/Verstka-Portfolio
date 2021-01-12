@@ -104,7 +104,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 230px;
+    padding-top: 100px;
     padding-bottom: 70px;
 }
 
@@ -118,13 +118,14 @@ body {
     position: absolute;
     z-index: -1;
     left: 0;
-    top: -210px;
+    top: -70px;
 }
 
 .box-about_front {
     position: relative;
-    left: 260px;
-    max-width: 330px;
+    left: 400px;
+    max-width: 320px;
+    /*max-height: 480px;*/
 }
 
 .box-about_vertical {
@@ -194,6 +195,10 @@ body {
 
  a:hover {
      opacity: 1;
+ }
+
+ .section-portfolio {
+     margin-bottom: 100px;
  }
 
  .portfolio {
@@ -278,6 +283,50 @@ body {
     text-decoration: none;
     font-size: 22px;
     padding: 12px 57px;
+}
+
+.section-feedback {
+    padding-top: 122px;
+    padding-bottom: 100px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feedback-item {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+.feedback-top {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.feedback-thumb {
+    margin-right: 15px;
+}
+
+.feedback-name_title {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.feedback-name_job {
+    font-size: 14px;
+    color: #7f7f82;
+}
+
+.feedback-body {
+    font-size: 18px;
+    color: #7f7f82;
+    font-style: italic;
+    padding-left: 10px;
+    margin-top: 20px;
+    line-height: 1.6;
 }
 
 
