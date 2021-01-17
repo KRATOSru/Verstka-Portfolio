@@ -391,7 +391,7 @@ body {
 
 .section-form {
     padding-top: 60px;
-    padding-bottom: 158px;
+    padding-bottom: 120px;
 }
 
 .form {
@@ -420,6 +420,39 @@ body {
     margin-bottom:10px;
     margin-top: 20px;
     transition: 0.3s;
+}
+
+footer {
+    background-color: #22222b;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #faf9fe;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+footer span {
+    margin-left: 80px;
+}
+
+.social-network {
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+}
+
+.social-network_item {
+    margin-left: 40px;
+
+}
+
+.social-network_link {
+    color: #faf9fe;
 }
 
 
