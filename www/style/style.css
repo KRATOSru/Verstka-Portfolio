@@ -6,6 +6,7 @@ body,html {
 body {
     font-family: 'Roboto', sans-serif;
     color: #22222b;
+    background-color: #e8f0f2;
 }
 
 .text-center {
@@ -13,11 +14,9 @@ body {
 }
 
 .main {
-    background-image: url("../img/backround-img.jpg");
+    background-image: url("../img/binary-2907220_960_720.jpg");
     display: flex;
     flex-direction: column;
-    /*height: 100vh;*/
-    /*justify-content: space-between;*/
 }
 
 .wrapper {
@@ -55,6 +54,7 @@ body {
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: 0.4s;
+    font-size: 20px;
 }
 
 .nav-link:hover {
@@ -67,6 +67,7 @@ body {
     font-weight: 500;
     color: #faf9fe;
     padding-top: 350px;
+    margin-bottom: 100px;
 }
 
 .title-h2 {
