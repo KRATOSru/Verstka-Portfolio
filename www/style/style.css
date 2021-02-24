@@ -16,7 +16,7 @@ body {
     background-image: url("../img/backround-img.jpg");
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /*height: 100vh;*/
     /*justify-content: space-between;*/
 }
 
@@ -141,22 +141,19 @@ body {
 
 .box-about_text {
     color: #7f7f82;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 1.5;
-    margin-bottom: 35px;
-}
-
-.progress-bar {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 260px;
+    margin-left: 100px;
 }
 
 .progress-bar-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 18px;
     margin-bottom: 10px;
+    margin-left: 220px;
 }
 
 .section-services {
